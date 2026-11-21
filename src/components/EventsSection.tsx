@@ -1,23 +1,23 @@
 export default function EventsSection() {
   const events = [
     {
-      title: "AMA Fresh Produce Markets",
-      meta: "EVERY FRIDAY · The lawns",
-      desc: "Fresh produce, bread and local makers on the lawns.",
+      title: "Friday Growers' Stall",
+      meta: "EVERY FRIDAY · Front lawn",
+      desc: "Growers, bakers and small makers set up stalls on the grass.",
       image: "https://www.theorchardpenrith.com.au/_astro/ama-markets.BuHkKybZ_21jVaB.webp",
       link: "#market"
     },
     {
-      title: "Better Days Gala Night",
-      meta: "THU 3 DEC · The John Farragher Woolshed",
-      desc: "Christmas gala dinner for Better Days, 3 December.",
+      title: "Midweek Supper Gala",
+      meta: "THU 3 DEC · Hive Hall",
+      desc: "A dressed dinner with a band, candles and one long shared menu.",
       image: "https://www.theorchardpenrith.com.au/_astro/fbbaa2d6d7f066532eaf0e81326c18af95d74a7f-2400x1200_ZPoQ1d.webp",
       link: "#gala"
     },
     {
-      title: "Terry Reilly Convoy Xmas Special",
+      title: "Lights on the Lawn",
       meta: "SAT 5 DEC · Buzz Box",
-      desc: "The Terry Reilly Convoy Xmas Special comes to Buzz Box on Saturday 5 December.",
+      desc: "An evening of lights, music and late plates across the grounds.",
       image: "https://www.theorchardpenrith.com.au/_astro/1b237fbf350db40f332b9e6131cb21b54546c527-1600x1067_Z11q5HG.webp",
       link: "#convoy"
     }
@@ -29,10 +29,10 @@ export default function EventsSection() {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
-            What's on <em className="italic font-normal">this month</em>
+            On the board <em className="italic font-normal">this month</em>
           </h2>
           <p className="text-[#6e6357] text-lg max-w-xl font-light">
-            Live music, grower markets, seasonal celebrations and community gatherings by the river.
+            Stalls, a supper with a band, and one lit-up Saturday on the lawn.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function EventsSection() {
           href="#whats-on"
           className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-[#fffefc] text-[#12201b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
         >
-          <span>Full calendar</span>
+          <span>See the month</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
             <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
           </svg>
@@ -87,7 +87,7 @@ export default function EventsSection() {
               </div>
 
               <div className="pt-3 border-t border-[#e2d8cb] flex items-center justify-between text-xs font-semibold text-[#12201b] group-hover:text-[#c47335]">
-                <span>View event</span>
+                <span>Event details</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>

@@ -5,10 +5,10 @@ export default function SpacesSection() {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
-            <em className="italic font-normal">Spaces</em> built for a crowd.
+            <em className="italic font-normal">Rooms</em> for any guest list.
           </h2>
           <p className="text-[#6e6357] text-lg max-w-xl font-light">
-            Every space, every layout, 1 venue. Flexible packages for a range of budgets.
+            One address, several layouts. Packages that bend with the budget.
           </p>
         </div>
 
@@ -16,7 +16,7 @@ export default function SpacesSection() {
           href="#all-spaces"
           className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-[#fffefc] text-[#12201b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
         >
-          <span>View all 12 spaces</span>
+          <span>See every room</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
             <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
           </svg>
@@ -30,17 +30,17 @@ export default function SpacesSection() {
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
               src="https://www.theorchardpenrith.com.au/_astro/woolshed-exterior.jGfhh8_5_2avO6F.webp"
-              alt="The Woolshed set for a seated dinner"
+              alt="Hive Hall dressed for a seated dinner"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div>
               <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b]">
-                The John Farragher Woolshed
+                Hive Hall
               </h3>
               <p className="text-sm text-[#6e6357] mt-2 leading-relaxed">
-                Rustic character meets modern comfort. Divides into 3 rooms, each with its own feel.
+                Warm timber and low light. Three rooms that can stay separate or open into one long dinner.
               </p>
             </div>
 
@@ -51,15 +51,15 @@ export default function SpacesSection() {
               </span>
               <div className="flex flex-col gap-1.5">
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Stables</span>
+                  <span className="font-medium text-[#26221d]">Amber Room</span>
                   <span className="text-[#6e6357]">50 seated</span>
                 </div>
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Shearing Shed</span>
+                  <span className="font-medium text-[#26221d]">Cedar Room</span>
                   <span className="text-[#6e6357]">50 seated</span>
                 </div>
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Wool Room</span>
+                  <span className="font-medium text-[#26221d]">Loom Room</span>
                   <span className="text-[#6e6357]">50 seated</span>
                 </div>
               </div>
@@ -88,17 +88,17 @@ export default function SpacesSection() {
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
               src="https://www.theorchardpenrith.com.au/_astro/farmhouse-interior.4PfutBNt_1N5IlX.webp"
-              alt="Inside The Farmhouse, home of Taproom on Tench"
+              alt="Inside Lantern House, home of The Buzz Tap"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div>
               <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b]">
-                The Farmhouse
+                Lantern House
               </h3>
               <p className="text-sm text-[#6e6357] mt-2 leading-relaxed">
-                Pub-style function space, home of Freddy's and Taproom on Tench: live music, NRL on the big screens, craft beer.
+                The social room. Live sets, a screen for the game, and Ember Kitchen just through the door.
               </p>
             </div>
 
@@ -109,7 +109,7 @@ export default function SpacesSection() {
               </span>
               <div className="flex flex-col gap-1.5">
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Semi-Private Rooms</span>
+                  <span className="font-medium text-[#26221d]">Quiet Booths</span>
                   <span className="text-[#6e6357]">12 seated</span>
                 </div>
               </div>
@@ -138,17 +138,17 @@ export default function SpacesSection() {
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
               src="https://www.theorchardpenrith.com.au/_astro/alfresco-2.D5E9REfR_ZokURC.webp"
-              alt="Guests sharing a long lunch table in The Alfresco"
+              alt="A long lunch on the Open Deck"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div>
               <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b]">
-                The Alfresco
+                The Open Deck
               </h3>
               <p className="text-sm text-[#6e6357] mt-2 leading-relaxed">
-                Outdoor and undercover, high ceilings, exposed beams. Heated in winter, fans in summer.
+                Covered outdoor tables under tall beams. Heaters in the cold months, fans when the day runs hot.
               </p>
             </div>
 
@@ -159,11 +159,11 @@ export default function SpacesSection() {
               </span>
               <div className="flex flex-col gap-1.5">
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Alfresco 1 (Riverside)</span>
+                  <span className="font-medium text-[#26221d]">North Deck</span>
                   <span className="text-[#6e6357]">75 seated</span>
                 </div>
                 <div className="flex items-center justify-between text-xs py-1 px-2 rounded-lg bg-[#f9f6f0]">
-                  <span className="font-medium text-[#26221d]">Alfresco 2 (Orchard)</span>
+                  <span className="font-medium text-[#26221d]">South Deck</span>
                   <span className="text-[#6e6357]">75 seated</span>
                 </div>
               </div>
@@ -192,17 +192,17 @@ export default function SpacesSection() {
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
               src="https://www.theorchardpenrith.com.au/_astro/pavilion.CHgyaRww_2d8vSb.webp"
-              alt="Pavilion interior, natural light"
+              alt="The Glass Room in daylight"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div>
               <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b]">
-                The Pavilion
+                The Glass Room
               </h3>
               <p className="text-sm text-[#6e6357] mt-2 leading-relaxed">
-                Soaring ceilings, floor-to-ceiling windows and views across the grounds. Contemporary design meets nature.
+                A bright hall with tall windows, a private bar, and the lawn right outside. Made for the bigger bookings.
               </p>
             </div>
 
@@ -213,10 +213,10 @@ export default function SpacesSection() {
               </span>
               <div className="flex flex-col gap-1.5">
                 <div className="text-xs py-1 px-2 rounded-lg bg-[#f9f6f0] text-[#26221d]">
-                  Private bar, expansive natural lawn views
+                  Private bar with a clear view of the lawn
                 </div>
                 <div className="text-xs py-1 px-2 rounded-lg bg-[#f9f6f0] text-[#26221d]">
-                  Integrated state-of-the-art AV & acoustics
+                  Screens and sound already in the room
                 </div>
               </div>
             </div>

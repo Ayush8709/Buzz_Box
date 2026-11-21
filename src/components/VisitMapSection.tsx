@@ -1,11 +1,11 @@
 export default function VisitMapSection() {
   const mapHotspots = [
-    { name: "The Pavilion", desc: "Soaring ceilings, floor-to-ceiling windows", cap: "200 cap", link: "#pavilion" },
-    { name: "The Woolshed", desc: "Stables, Shearing Shed & Wool Room", cap: "200 cap", link: "#woolshed" },
-    { name: "The Farmhouse", desc: "Home of Freddy's & Taproom on Tench", cap: "100 cap", link: "#farmhouse" },
-    { name: "The Alfresco", desc: "High ceilings, outdoor undercover dining", cap: "200 cap", link: "#alfresco" },
-    { name: "Playground & Farmyard", desc: "Fully fenced all-ages kids play zone", cap: "All ages", link: "#playground" },
-    { name: "Bakery Brothers & OMG", desc: "Fresh artisan sourdough & donuts", cap: "Open daily", link: "#bakery" },
+    { name: "The Glass Room", desc: "Tall windows and a private bar", cap: "200 cap", link: "#glass-room" },
+    { name: "Hive Hall", desc: "Amber, Cedar and Loom rooms", cap: "200 cap", link: "#hive-hall" },
+    { name: "Lantern House", desc: "Home of Ember Kitchen and The Buzz Tap", cap: "100 cap", link: "#lantern-house" },
+    { name: "The Open Deck", desc: "Covered tables in the open air", cap: "200 cap", link: "#open-deck" },
+    { name: "Play Green", desc: "A fenced lawn for every age", cap: "All ages", link: "#play-green" },
+    { name: "Morning Crumb & Sugar Loop", desc: "Bread in the morning, sweets after", cap: "Open daily", link: "#morning-crumb" },
   ]
 
   return (
@@ -20,7 +20,7 @@ export default function VisitMapSection() {
             </div>
 
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl text-[#12201b] leading-[1.1]">
-              Find your way <em className="italic font-normal">around</em>.
+              Come and <em className="italic font-normal">find us</em>.
             </h2>
 
             <ul className="space-y-4 pt-2">
@@ -32,14 +32,7 @@ export default function VisitMapSection() {
                     <circle cx="12" cy="10" r="2.5" />
                   </svg>
                 </div>
-                <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=50+Tench+Ave,+Jamisontown+NSW+2750"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#c47335] transition-colors underline underline-offset-4 decoration-[#e2d8cb] hover:decoration-[#c47335]"
-                >
-                  50 Tench Ave, Jamisontown NSW 2750
-                </a>
+                <span>8 Market Lane, Riverside Quarter</span>
               </li>
 
               {/* Hours */}
@@ -49,7 +42,7 @@ export default function VisitMapSection() {
                     <circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" />
                   </svg>
                 </div>
-                <span>Open 7 days. Hours vary by kitchen.</span>
+                <span>Open every day. Each kitchen keeps its own hours.</span>
               </li>
 
               {/* Parking */}
@@ -59,7 +52,7 @@ export default function VisitMapSection() {
                     <rect x="4" y="4" width="16" height="16" rx="3" /><path d="M9 17V8h4a2.5 2.5 0 0 1 0 5H9" />
                   </svg>
                 </div>
-                <span>Free parking on site</span>
+                <span>Parking on site is free</span>
               </li>
 
               {/* Phone */}
@@ -69,8 +62,8 @@ export default function VisitMapSection() {
                     <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
                   </svg>
                 </div>
-                <a href="tel:1300513884" className="font-semibold hover:text-[#c47335] transition-colors">
-                  1300 513 884
+                <a href="#contact" className="font-semibold hover:text-[#c47335] transition-colors">
+                  Call Buzz Box
                 </a>
               </li>
             </ul>
@@ -78,12 +71,10 @@ export default function VisitMapSection() {
 
           <div className="flex flex-wrap items-center gap-3 pt-4">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=50+Tench+Ave,+Jamisontown+NSW+2750"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/20 cursor-pointer"
             >
-              <span>Get directions</span>
+              <span>Ask for directions</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                 <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
               </svg>
@@ -93,7 +84,7 @@ export default function VisitMapSection() {
               href="#contact"
               className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-white text-[#12201b] font-semibold text-sm transition-all cursor-pointer"
             >
-              <span>Contact us</span>
+              <span>Write to us</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                 <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
               </svg>
@@ -106,15 +97,15 @@ export default function VisitMapSection() {
           <div className="space-y-4">
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <span className="font-['DM_Mono',monospace] text-xs uppercase tracking-wider text-[#9fb3a7]">
-                Buzz Box Precinct Map
+                Buzz Box grounds map
               </span>
               <span className="text-xs text-[#df9557] font-['DM_Mono',monospace]">
-                Nepean River Frontage
+                Garden frontage
               </span>
             </div>
 
             <p className="text-sm text-[#c5d5cb] font-light">
-              50 Tench Avenue is situated directly along the scenic Nepean River trail, hosting 12 independent spaces, shaded groves, dining terraces, and recreation lawns.
+              Twelve rooms, shaded lawns, dining terraces and a play green, all inside the Buzz Box grounds.
             </p>
 
             {/* Hotspots Grid */}
@@ -140,8 +131,8 @@ export default function VisitMapSection() {
           </div>
 
           <div className="pt-8 border-t border-white/10 mt-6 flex items-center justify-between text-xs text-[#9fb3a7] font-['DM_Mono',monospace]">
-            <span>PARKING · ENTRANCE ON TENCH AVE</span>
-            <span className="text-[#df9557]">★ 50 TENCH AVE, JAMISONTOWN</span>
+            <span>PARKING · ENTER FROM MARKET LANE</span>
+            <span className="text-[#df9557]">★ 8 MARKET LANE</span>
           </div>
         </div>
       </div>

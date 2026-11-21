@@ -48,7 +48,7 @@ export default function Logo({ className = "h-8 md:h-10 w-auto", variant = 'dark
         <span
           className="font-['DM_Mono',monospace] text-[9px] uppercase tracking-[0.28em] text-[#8a7f72] mt-1 leading-none font-medium"
         >
-          Dining & Events
+          Rooms & kitchens
         </span>
       </div>
     </div>

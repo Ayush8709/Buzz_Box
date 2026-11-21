@@ -37,7 +37,7 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 font-['Archivo',sans-serif] text-[15px] font-medium text-[#26221d]">
-          {/* 1. Plan an Event Dropdown */}
+          {/* 1. Plan a gathering Dropdown */}
           <div
             className="relative"
             onMouseEnter={() => handleMouseEnter('plan')}
@@ -49,7 +49,7 @@ export default function Header() {
                 activeDropdown === 'plan' ? 'text-[#c47335]' : ''
               }`}
             >
-              Plan an Event
+              Plan a gathering
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -92,7 +92,7 @@ export default function Header() {
                       href="#brochure"
                       className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-[#f5e7db] hover:bg-[#c47335]/20 text-xs font-['DM_Mono',monospace] font-semibold uppercase tracking-wider text-[#8b4421] transition-colors"
                     >
-                      <span>All venues brochure</span>
+                      <span>Room guide</span>
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                         <path d="M12 3v12" /><path d="M7 10l5 5 5-5" /><path d="M4 17v2.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V17" />
                       </svg>
@@ -103,7 +103,7 @@ export default function Header() {
             )}
           </div>
 
-          {/* 2. Hire a Space Dropdown */}
+          {/* 2. Book a room Dropdown */}
           <div
             className="relative"
             onMouseEnter={() => handleMouseEnter('space')}
@@ -115,7 +115,7 @@ export default function Header() {
                 activeDropdown === 'space' ? 'text-[#c47335]' : ''
               }`}
             >
-              Hire a Space
+              Book a room
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -134,33 +134,33 @@ export default function Header() {
             {activeDropdown === 'space' && (
               <div className="absolute left-0 top-full pt-2 w-80 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
                 <div className="bg-[#fffefc] border border-[#e2d8cb] rounded-xl shadow-xl p-2 flex flex-col gap-0.5">
-                  <a href="#pavilion" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">The Pavilion</a>
+                  <a href="#glass-room" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">The Glass Room</a>
 
                   <div>
-                    <a href="#woolshed" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">The John Farragher Woolshed</a>
+                    <a href="#hive-hall" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">Hive Hall</a>
                     <div className="ml-4 pl-3 my-1 border-l border-[#e2d8cb] flex flex-col gap-0.5">
-                      <a href="#stables" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">The Stables</a>
-                      <a href="#shearing-shed" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">The Shearing Shed</a>
-                      <a href="#wool-room" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">The Wool Room</a>
+                      <a href="#amber-room" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Amber Room</a>
+                      <a href="#cedar-room" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Cedar Room</a>
+                      <a href="#loom-room" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Loom Room</a>
                     </div>
                   </div>
 
                   <div>
-                    <a href="#alfresco" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">The Alfresco</a>
+                    <a href="#open-deck" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">The Open Deck</a>
                     <div className="ml-4 pl-3 my-1 border-l border-[#e2d8cb] flex flex-col gap-0.5">
-                      <a href="#alfresco-1" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Alfresco 1 (Riverside)</a>
-                      <a href="#alfresco-2" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Alfresco 2 (Orchard)</a>
+                      <a href="#north-deck" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">North Deck</a>
+                      <a href="#south-deck" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">South Deck</a>
                     </div>
                   </div>
 
                   <div>
-                    <a href="#farmhouse" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">The Farmhouse</a>
+                    <a href="#lantern-house" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors block">Lantern House</a>
                     <div className="ml-4 pl-3 my-1 border-l border-[#e2d8cb] flex flex-col gap-0.5">
-                      <a href="#semi-private" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Semi-Private Rooms</a>
+                      <a href="#quiet-booths" className="px-2 py-1 text-xs text-[#6e6357] hover:text-[#c47335] transition-colors">Quiet Booths</a>
                     </div>
                   </div>
 
-                  <a href="#cosy-corner" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">The Cosy Corner</a>
+                  <a href="#the-nook" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">The Nook</a>
 
                   <div className="mt-2 pt-2 border-t border-[#e2d8cb] flex flex-col gap-1.5">
                     <a
@@ -176,7 +176,7 @@ export default function Header() {
                       href="#brochure"
                       className="flex items-center justify-between px-3 py-2.5 rounded-lg bg-[#f5e7db] hover:bg-[#c47335]/20 text-xs font-['DM_Mono',monospace] font-semibold uppercase tracking-wider text-[#8b4421] transition-colors"
                     >
-                      <span>All venues brochure</span>
+                      <span>Room guide</span>
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                         <path d="M12 3v12" /><path d="M7 10l5 5 5-5" /><path d="M4 17v2.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V17" />
                       </svg>
@@ -187,14 +187,14 @@ export default function Header() {
             )}
           </div>
 
-          {/* 3. Book a Table */}
+          {/* 3. Reserve a seat */}
           <a href="#book-a-table" className="py-2 hover:text-[#c47335] transition-colors">
-            Book a Table
+            Reserve a seat
           </a>
 
-          {/* 4. What's On */}
+          {/* 4. This month */}
           <a href="#whats-on" className="py-2 hover:text-[#c47335] transition-colors">
-            What's On
+            This month
           </a>
 
           {/* 5. Food Community Dropdown */}
@@ -209,7 +209,7 @@ export default function Header() {
                 activeDropdown === 'food' ? 'text-[#c47335]' : ''
               }`}
             >
-              Food Community
+              Kitchens
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -232,9 +232,9 @@ export default function Header() {
                   <div className="p-2 rounded-lg hover:bg-[#ebe4d5] transition-colors">
                     <div className="flex items-center gap-2.5">
                       <div className="w-7 h-7 rounded-full bg-[#c47335]/15 text-[#c47335] font-bold flex items-center justify-center text-xs border border-[#c47335]/30">
-                        F
+                        E
                       </div>
-                      <span className="text-sm font-medium text-[#26221d]">Freddy's @ Buzz Box</span>
+                      <span className="text-sm font-medium text-[#26221d]">Ember Kitchen</span>
                     </div>
                     <div className="ml-9 mt-1">
                       <a href="#freddys-menu" className="text-xs text-[#6e6357] hover:text-[#c47335]">Menu</a>
@@ -245,9 +245,9 @@ export default function Header() {
                   <div className="p-2 rounded-lg hover:bg-[#ebe4d5] transition-colors">
                     <div className="flex items-center gap-2.5">
                       <div className="w-7 h-7 rounded-full bg-[#12201b]/10 text-[#12201b] font-bold flex items-center justify-center text-xs border border-[#12201b]/20">
-                        T
+                        B
                       </div>
-                      <span className="text-sm font-medium text-[#26221d]">Taproom on Tench</span>
+                      <span className="text-sm font-medium text-[#26221d]">The Buzz Tap</span>
                     </div>
                   </div>
 
@@ -255,12 +255,12 @@ export default function Header() {
                   <div className="p-2 rounded-lg hover:bg-[#ebe4d5] transition-colors">
                     <div className="flex items-center gap-2.5">
                       <div className="w-7 h-7 rounded-full bg-[#8b4421]/15 text-[#8b4421] font-bold flex items-center justify-center text-xs border border-[#8b4421]/30">
-                        B
+                        M
                       </div>
-                      <span className="text-sm font-medium text-[#26221d]">Bakery Brothers</span>
+                      <span className="text-sm font-medium text-[#26221d]">Morning Crumb</span>
                     </div>
                     <div className="ml-9 mt-1">
-                      <a href="#bakery-menu" className="text-xs text-[#6e6357] hover:text-[#c47335]">Wholesale menu</a>
+                      <a href="#bakery-menu" className="text-xs text-[#6e6357] hover:text-[#c47335]">Baker's list</a>
                     </div>
                   </div>
 
@@ -268,9 +268,9 @@ export default function Header() {
                   <div className="p-2 rounded-lg hover:bg-[#ebe4d5] transition-colors">
                     <div className="flex items-center gap-2.5">
                       <div className="w-7 h-7 rounded-full bg-[#dbe7df] text-[#224d35] font-bold flex items-center justify-center text-xs border border-[#224d35]/20">
-                        O
+                        S
                       </div>
-                      <span className="text-sm font-medium text-[#26221d]">OMG Decadent Donuts</span>
+                      <span className="text-sm font-medium text-[#26221d]">Sugar Loop</span>
                     </div>
                     <div className="ml-9 mt-1">
                       <a href="#omg-menu" className="text-xs text-[#6e6357] hover:text-[#c47335]">Menu</a>
@@ -340,10 +340,10 @@ export default function Header() {
                         Café and restaurant
                       </span>
                       <a href="#freddys" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">
-                        Freddy's @ Buzz Box
+                        Ember Kitchen
                       </a>
-                      <a href="#omg" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">
-                        OMG Decadent Donuts
+                      <a href="#sugar-loop" className="px-3 py-2 rounded-lg text-sm text-[#26221d] hover:bg-[#ebe4d5] transition-colors">
+                        Sugar Loop
                       </a>
                     </div>
 
@@ -414,7 +414,7 @@ export default function Header() {
             href="#plan-an-event"
             className="group hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#12201b] hover:bg-[#c47335] active:scale-[0.98] text-[#f9f6f0] hover:text-white font-['Archivo',sans-serif] text-sm font-semibold tracking-wide transition-all duration-200 shadow-sm"
           >
-            <span>Event Enquiry</span>
+            <span>Send an enquiry</span>
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -455,35 +455,35 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="hover:text-[#c47335] transition-colors py-1"
             >
-              Plan an Event
+              Plan a gathering
             </a>
             <a
               href="#hire-a-space"
               onClick={() => setMobileMenuOpen(false)}
               className="hover:text-[#c47335] transition-colors py-1"
             >
-              Hire a Space
+              Book a room
             </a>
             <a
               href="#book-a-table"
               onClick={() => setMobileMenuOpen(false)}
               className="hover:text-[#c47335] transition-colors py-1"
             >
-              Book a Table
+              Reserve a seat
             </a>
             <a
               href="#whats-on"
               onClick={() => setMobileMenuOpen(false)}
               className="hover:text-[#c47335] transition-colors py-1"
             >
-              What's On
+              This month
             </a>
             <a
               href="#food-community"
               onClick={() => setMobileMenuOpen(false)}
               className="hover:text-[#c47335] transition-colors py-1"
             >
-              Food Community
+              Kitchens
             </a>
             <a
               href="#menus"
@@ -507,18 +507,18 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 py-3 rounded-full bg-[#c47335] text-white font-semibold text-sm shadow-md"
             >
-              <span>Event Enquiry</span>
+              <span>Send an enquiry</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
                 <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
               </svg>
             </a>
 
             <div className="flex flex-col gap-2 pt-2 text-xs font-['DM_Mono',monospace] uppercase tracking-wider text-[#6e6357]">
-              <a href="tel:1300513884" className="flex items-center gap-2 hover:text-[#12201b]">
+              <a href="#contact" className="flex items-center gap-2 hover:text-[#12201b]">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 text-[#c47335]">
                   <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
                 </svg>
-                1300 513 884
+                Call Buzz Box
               </a>
               <a href="#contact" className="hover:text-[#12201b]">Contact Us</a>
               <a href="#giftcards" className="hover:text-[#12201b]">Gift cards</a>
@@ -526,7 +526,7 @@ export default function Header() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">
                   <path d="M12 3v12" /><path d="M7 10l5 5 5-5" /><path d="M4 17v2.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V17" />
                 </svg>
-                Venue Brochure (PDF)
+                Room guide (PDF)
               </a>
             </div>
           </div>

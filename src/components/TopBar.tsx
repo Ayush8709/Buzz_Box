@@ -13,7 +13,7 @@ export default function TopBar() {
             className="group inline-flex items-center gap-1.5 hover:text-[#fffefc] transition-colors truncate"
           >
             <strong className="text-[#fffefc] font-medium">Next up:</strong>
-            <span className="truncate">AMA Fresh Produce Markets · Fri 27 Nov</span>
+            <span className="truncate">Friday Growers' Stall · Fri 27 Nov</span>
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -42,7 +42,7 @@ export default function TopBar() {
             Contact Us
           </a>
           <a
-            href="tel:1300513884"
+            href="#contact"
             className="inline-flex items-center gap-1.5 text-[#fffefc] font-['Archivo',sans-serif] text-xs font-semibold normal-case tracking-normal hover:text-[#c47335] transition-colors"
           >
             <svg
@@ -56,7 +56,7 @@ export default function TopBar() {
             >
               <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
             </svg>
-            1300 513 884
+            Call Buzz Box
           </a>
         </div>
       </div>

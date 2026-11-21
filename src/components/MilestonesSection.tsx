@@ -2,23 +2,23 @@ export default function MilestonesSection() {
   const photos = [
     {
       src: "https://www.theorchardpenrith.com.au/_astro/56df36d16f29330cb0ad150c05ca6618a7da8d7e-1200x797_Z1shwiY.webp",
-      alt: "Pasifika 21st celebration, dancing with leis",
-      caption: "Pasifika 21st Milestone"
+      alt: "A twenty-first birthday on the dance floor",
+      caption: "A 21st on the dance floor"
     },
     {
       src: "https://www.theorchardpenrith.com.au/_astro/ca8cab382d68b7ae1a569f561b3e3dd0a879ea38-1200x801_21dqQn.webp",
-      alt: "Wheelchair user and friends laughing at Taproom on Tench bar",
-      caption: "Accessible Riverside Gatherings"
+      alt: "Friends laughing together at the bar",
+      caption: "Friends around the bar"
     },
     {
       src: "https://www.theorchardpenrith.com.au/_astro/d0cadece88d1ad933e3c41bf5bbb4777336f3e07-1200x800_27eNgg.webp",
-      alt: "Diwali community night on the lawn with lanterns",
-      caption: "Diwali Community Lights"
+      alt: "Lanterns lit for a night on the lawn",
+      caption: "Lantern night on the lawn"
     },
     {
       src: "https://www.theorchardpenrith.com.au/_astro/7b33420c15d94007f02a4f4ed255b32147c5a6f1-1200x800_1xviUh.webp",
-      alt: "Kids' birthday: Chinese-Australian family, cake moment",
-      caption: "Multigenerational Birthdays"
+      alt: "A family gathered around a birthday cake",
+      caption: "Cake at the family table"
     }
   ]
 
@@ -29,15 +29,15 @@ export default function MilestonesSection() {
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f0e9dd] text-[#6e6357] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
             <span className="w-2 h-2 rounded-full bg-[#c47335]"></span>
-            Everyone celebrates here
+            Every kind of night
           </div>
 
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
-            Your people. Your culture. <em className="italic font-normal">Your party.</em>
+            Bring your people. <em className="italic font-normal">We'll set the table.</em>
           </h2>
 
           <p className="text-base sm:text-lg text-[#6e6357] leading-relaxed font-light">
-            Milestones from every corner of Western Sydney: every culture, every generation, every ability. If it matters to you, it matters to us.
+            Birthdays, festivals, farewells and first dances. If it matters to your people, Buzz Box makes room for it.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function MilestonesSection() {
             href="#plan-an-event"
             className="group inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/20 cursor-pointer"
           >
-            <span>Start planning your celebration</span>
+            <span>Start a booking</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
               <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
             </svg>
@@ -79,7 +79,7 @@ export default function MilestonesSection() {
             href="#all-spaces"
             className="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-white text-[#12201b] font-semibold text-sm transition-all cursor-pointer"
           >
-            <span>Browse all 12 spaces</span>
+            <span>Look through the rooms</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
               <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
             </svg>

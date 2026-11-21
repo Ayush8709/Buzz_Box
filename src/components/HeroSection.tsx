@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://www.theorchardpenrith.com.au/_astro/guests-garden-picnic-table.cgjWlzZa_SJ9bx.png"
-            alt="Friends gathered at a dressed picnic table under the trees in the gardens at Buzz Box"
+            alt="Friends sharing a long table in the garden at Buzz Box"
             className="w-full h-full object-cover object-[center_35%]"
           />
           {/* Custom Deep Obsidian & Charcoal Gradient */}
@@ -22,24 +22,19 @@ export default function HeroSection() {
         {/* Hero Content */}
         <div className="relative z-10 max-w-4xl space-y-6">
           {/* Google Reviews Badge */}
-          <a
-            href="https://share.google/q229HOl1Kos4ftPgT"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-xs text-white/90 hover:bg-black/60 transition-colors w-fit"
-          >
+          <span className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-xs text-white/90 w-fit">
             <div className="flex text-[#df9557] text-sm tracking-tighter">
               {'★★★★★'}
             </div>
             <span className="font-['DM_Mono',monospace] tracking-wider uppercase text-[11px] font-medium">
-              5 star Google reviews
+              A guest favourite
             </span>
-          </a>
+          </span>
 
           {/* Headline */}
           <h1 className="font-['Rufina',serif] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal text-white leading-[1.05] tracking-tight">
-            THE Place<br />
-            To <em className="italic font-normal text-[#df9557]">Celebrate.</em>
+            A room for<br />
+            every <em className="italic font-normal text-[#df9557]">reason.</em>
           </h1>
 
           {/* Event Search Form */}
@@ -122,7 +117,7 @@ export default function HeroSection() {
               type="submit"
               className="px-6 py-3.5 rounded-xl bg-[#c47335] hover:bg-[#aa5e27] active:scale-[0.98] text-white font-['Archivo',sans-serif] font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-[#c47335]/30"
             >
-              <span>Start planning</span>
+              <span>Check dates</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
                 <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
               </svg>
@@ -136,13 +131,13 @@ export default function HeroSection() {
               className="group p-4 rounded-xl bg-black/40 backdrop-blur-md border border-white/10 hover:border-[#c47335]/60 transition-all"
             >
               <div className="flex items-center gap-2 text-white font-semibold text-sm group-hover:text-[#df9557] transition-colors">
-                <span>Plan an Event</span>
+                <span>Plan a gathering</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 opacity-70 group-hover:translate-x-0.5 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
               </div>
               <p className="text-xs text-white/70 mt-1 line-clamp-2">
-                Tell us the occasion. We'll match the space, menu and setup.
+                Share the date and the vibe. We will line up the room and the menu.
               </p>
             </a>
 
@@ -151,13 +146,13 @@ export default function HeroSection() {
               className="group p-4 rounded-xl bg-black/40 backdrop-blur-md border border-white/10 hover:border-[#c47335]/60 transition-all"
             >
               <div className="flex items-center gap-2 text-white font-semibold text-sm group-hover:text-[#df9557] transition-colors">
-                <span>Hire a Space</span>
+                <span>Book a room</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 opacity-70 group-hover:translate-x-0.5 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
               </div>
               <p className="text-xs text-white/70 mt-1 line-clamp-2">
-                12 spaces, from the 200-guest Pavilion to the VIP Suite.
+                Twelve rooms, from a quiet booth to a hall for two hundred.
               </p>
             </a>
 
@@ -166,13 +161,13 @@ export default function HeroSection() {
               className="group p-4 rounded-xl bg-black/40 backdrop-blur-md border border-white/10 hover:border-[#c47335]/60 transition-all"
             >
               <div className="flex items-center gap-2 text-white font-semibold text-sm group-hover:text-[#df9557] transition-colors">
-                <span>Book a Table</span>
+                <span>Reserve a seat</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 opacity-70 group-hover:translate-x-0.5 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
               </div>
               <p className="text-xs text-white/70 mt-1 line-clamp-2">
-                Live availability across our restaurants. Book in a minute.
+                Check which kitchen has a free table and hold it.
               </p>
             </a>
 
@@ -187,7 +182,7 @@ export default function HeroSection() {
                 </svg>
               </div>
               <p className="text-xs text-white/70 mt-1 line-clamp-2">
-                Explore Freddy's, Taproom, Bakery Brothers and event menus.
+                Ember Kitchen, The Buzz Tap, Morning Crumb and party menus.
               </p>
             </a>
           </div>

@@ -1,39 +1,39 @@
 export default function FoodCommunitySection() {
   const venues = [
     {
-      name: "Freddy's @ Buzz Box",
-      cuisine: "Pizzeria & Restaurant",
-      tag: "Open now · until late",
-      hours: "Mon to Wed 10am to 2pm · Thu to Sun 9am to late",
+      mark: "E",
+      name: "Ember Kitchen",
+      cuisine: "Fire, pizza and plates",
+      tag: "Open today · late on weekends",
+      hours: "Weekdays from 10am · Thu to Sun from 9am",
       image: "https://www.theorchardpenrith.com.au/_astro/freddys-grill.Di7p99Qp_ZhcDr0.webp",
-      logo: "https://www.theorchardpenrith.com.au/_astro/logo-freddys.DoEukAtD_Z1iyUUy.webp",
       link: "#freddys"
     },
     {
-      name: "Taproom on Tench",
-      cuisine: "Pub · Live music and sport",
-      tag: "Wed to Sun 11am to late",
-      hours: "Craft beers, NRL live on big screens, riverside views",
+      mark: "B",
+      name: "The Buzz Tap",
+      cuisine: "Taps, music and the game",
+      tag: "Wed to Sun · from 11am",
+      hours: "House taps, a live set, and the match on the big screen",
       image: "https://www.theorchardpenrith.com.au/_astro/taproom-interior.DFb_V5Y-_Z1qP63U.webp",
-      logo: "https://www.theorchardpenrith.com.au/_astro/logo-taproom-badge.BvtIH56k_ZqgacM.webp",
       link: "#taproom"
     },
     {
-      name: "Bakery Brothers",
-      cuisine: "Bakery · Pies · Coffee",
-      tag: "Open now · until 2pm",
-      hours: "Mon to Sun 7am to 2pm · Fresh artisanal baked sourdough",
+      mark: "M",
+      name: "Morning Crumb",
+      cuisine: "Bread, pies and coffee",
+      tag: "Baking until 2pm",
+      hours: "Every day from 7am · loaves, pies and a short coffee list",
       image: "https://www.theorchardpenrith.com.au/_astro/bakery-brothers-hero.Bqt6Cu4v_sgSKu.webp",
-      logo: "https://www.theorchardpenrith.com.au/_astro/logo-bakery-ig.tJh5jLCy_FfvuA.webp",
       link: "#bakery"
     },
     {
-      name: "OMG Decadent Donuts",
-      cuisine: "Donuts & sweet treats",
-      tag: "100% Gluten-free & Vegan",
-      hours: "Hot fresh dusted cinnamon donuts, allergen-friendly",
+      mark: "S",
+      name: "Sugar Loop",
+      cuisine: "Donuts and small sweets",
+      tag: "Gluten-free and vegan",
+      hours: "Cinnamon dust, chocolate drizzle, and a tray for the table",
       image: "https://www.theorchardpenrith.com.au/_astro/omg-choc-drizzle.BL5cmrRe_EvuaA.webp",
-      logo: "https://www.theorchardpenrith.com.au/_astro/logo-omg-ig.2DeuV4CI_ZYuDJj.webp",
       link: "#omg"
     }
   ]
@@ -44,10 +44,10 @@ export default function FoodCommunitySection() {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
-            Food <em className="italic font-normal">everyone</em> loves.
+            Four kitchens, <em className="italic font-normal">one</em> address.
           </h2>
           <p className="text-[#6e6357] text-lg max-w-xl font-light">
-            Casual café eats, craft beer on tap, wood-fired mains and artisan sweets. All in one spot.
+            Wood fire, cold taps, morning bread and a sweet tray. Stay at one counter, or wander through all four.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function FoodCommunitySection() {
           href="#food-community"
           className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-[#fffefc] text-[#12201b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
         >
-          <span>Explore the precinct</span>
+          <span>Meet the kitchens</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
             <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
           </svg>
@@ -77,12 +77,8 @@ export default function FoodCommunitySection() {
                 alt={venue.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute bottom-3 left-3 w-12 h-12 rounded-full border-2 border-white shadow-md bg-white overflow-hidden">
-                <img
-                  src={venue.logo}
-                  alt={`${venue.name} logo`}
-                  className="w-full h-full object-cover"
-                />
+              <div className="absolute bottom-3 left-3 w-12 h-12 rounded-full border-2 border-white shadow-md bg-[#12201b] text-[#fffefc] flex items-center justify-center font-['Rufina',serif] text-lg">
+                {venue.mark}
               </div>
             </div>
 

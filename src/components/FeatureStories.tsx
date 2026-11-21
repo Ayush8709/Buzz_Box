@@ -7,20 +7,20 @@ export default function FeatureStories() {
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#8b4421] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
               <span className="w-2 h-2 rounded-full bg-[#c47335]"></span>
-              Christmas in Penrith
+              Festive at Buzz Box
             </div>
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
-              Christmas parties at Buzz Box.
+              End-of-year parties, done properly.
             </h2>
             <p className="text-base sm:text-lg text-[#6e6357] leading-relaxed max-w-xl">
-              Work Christmas parties, end-of-year drinks and family lunches in The Pavilion, The Woolshed or on the Alfresco, all on the one estate in Penrith.
+              Staff drinks, family lunches and long tables. Take the Glass Room, Hive Hall, or the Open Deck, all on the one Buzz Box block.
             </p>
             <div>
               <a
                 href="#christmas-party"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/20 cursor-pointer"
               >
-                <span>Book your Christmas party</span>
+                <span>Hold a festive date</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -32,7 +32,7 @@ export default function FeatureStories() {
             <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
               <img
                 src="https://www.theorchardpenrith.com.au/_astro/christmas-santa-guests.CFlr1P3f_Z1kOgYb.webp"
-                alt="Santa with guests by the Christmas tree on the Alfresco"
+                alt="Guests beside the tree on the Open Deck"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -40,14 +40,14 @@ export default function FeatureStories() {
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/christmas-seafood-feast.CxaxBHEp_yYtgS.webp"
-                  alt="Prawns, oysters and a Christmas seafood feast"
+                  alt="A shared seafood spread for a festive lunch"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/christmas-guests-thumbs-up.DALDVg2S_Z23STPD.webp"
-                  alt="Guests giving thumbs up at Christmas lunch"
+                  alt="Guests at a festive lunch table"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -65,17 +65,17 @@ export default function FeatureStories() {
               Corporate at Buzz Box
             </div>
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#fffefc] leading-[1.1]">
-              Corporate offsites your team will actually talk about.
+              Offsites people still mention on Monday.
             </h2>
             <p className="text-base sm:text-lg text-[#c5d5cb] leading-relaxed max-w-xl font-light">
-              Boardroom-for-a-day to 200-person staff parties, with AV, in-house catering and a whole precinct for the after-hours bit.
+              A working day in a quiet room, or a party for the whole company. Screens, a kitchen on site, and lawns for the part after the agenda.
             </p>
             <div>
               <a
                 href="#corporate"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/30 cursor-pointer"
               >
-                <span>Plan a corporate event</span>
+                <span>Plan the offsite</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -87,7 +87,7 @@ export default function FeatureStories() {
             <div className="rounded-2xl overflow-hidden aspect-[16/10] bg-black/20 shadow-2xl border border-white/10">
               <img
                 src="https://www.theorchardpenrith.com.au/_astro/corporate-drinks.BU6jAGyo_ZVayNl.webp"
-                alt="Conference offsite in the Pavilion, diverse team, presenter on stage"
+                alt="A team gathered for a talk in the Glass Room"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -104,17 +104,17 @@ export default function FeatureStories() {
               Kids' parties at Buzz Box
             </div>
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
-              Kids' parties, minus the hard work.
+              Birthday noise, grown-up calm.
             </h2>
             <p className="text-base sm:text-lg text-[#355342] leading-relaxed max-w-xl">
-              A fenced playground and party spaces right beside both. Pizza and donuts from the precinct, coffee for the grown-ups, and our team handles setup and pack-down.
+              A fenced play lawn sits beside the party rooms. Pizza and sweets from our kitchens, coffee for the adults, and we clear the room when you leave.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a
                 href="#kids-party"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#12201b] hover:bg-[#c47335] text-white font-semibold text-sm transition-all shadow-md cursor-pointer"
               >
-                <span>Plan a kids' party</span>
+                <span>Plan the birthday</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -123,7 +123,7 @@ export default function FeatureStories() {
                 href="#stables"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#12201b] hover:text-[#c47335] transition-colors"
               >
-                See the Stables
+                See the Amber Room
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -135,7 +135,7 @@ export default function FeatureStories() {
             <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
               <img
                 src="https://www.theorchardpenrith.com.au/_astro/kids-balloon-arch.BG5jcvli_Z2n5qQC.webp"
-                alt="Pastel balloon arch and 1st birthday backdrop"
+                alt="A balloon arch set for a first birthday"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -143,14 +143,14 @@ export default function FeatureStories() {
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/torc-hero-5.OVrZJUC9_Z1wgGuI.webp"
-                  alt="Families on the lawn at Buzz Box"
+                  alt="Families sitting on the lawn at Buzz Box"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/kids-jumping-castle.e6yFpeRH_ZUpFF9.webp"
-                  alt="Jumping castle on the lawn"
+                  alt="A jumping castle set up on the grass"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -165,20 +165,20 @@ export default function FeatureStories() {
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#224d35] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
               <span className="w-2 h-2 rounded-full bg-[#2ea05f]"></span>
-              Book a table
+              Reserve a seat
             </div>
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
-              Breakfast & Lunch? Sorted.
+              Morning tables, held early.
             </h2>
             <p className="text-base sm:text-lg text-[#6e6357] leading-relaxed max-w-xl">
-              Real-time availability across the whole precinct. Book Freddy's, Taproom on Tench or riverside alfresco dining in a few taps.
+              See which kitchen still has seats. Ember Kitchen, The Buzz Tap, or a table on the Open Deck.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a
                 href="#book-a-table"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#12201b] hover:bg-[#c47335] text-white font-semibold text-sm transition-all shadow-md cursor-pointer"
               >
-                <span>Book a table</span>
+                <span>Reserve a seat</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -187,7 +187,7 @@ export default function FeatureStories() {
                 href="#menus"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#12201b] hover:text-[#c47335] transition-colors"
               >
-                View Freddy's menu
+                View the Ember menu
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -199,7 +199,7 @@ export default function FeatureStories() {
             <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
               <img
                 src="https://www.theorchardpenrith.com.au/_astro/freddys-steak.B8MyK1z3_Z15TBa2.webp"
-                alt="Freddy's steak, chips and a glass of red on the table"
+                alt="Steak, chips and a glass of red at Ember Kitchen"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -207,14 +207,14 @@ export default function FeatureStories() {
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/freddys-burger-beer.Cn3Xfah5_Z2pCdVz.webp"
-                  alt="Burger and beer on the Alfresco"
+                  alt="A burger and a beer on the Open Deck"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
                 <img
                   src="https://www.theorchardpenrith.com.au/_astro/freddys-brunch-table.owUNE_6h_20b3qN.webp"
-                  alt="Brunch spread at Freddy's"
+                  alt="A brunch spread at Ember Kitchen"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -232,17 +232,17 @@ export default function FeatureStories() {
               Order online
             </div>
             <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
-              Catering Boxes for any occasion.
+              Boxes that travel well.
             </h2>
             <p className="text-base sm:text-lg text-[#6e6357] leading-relaxed max-w-xl">
-              Boardroom lunches, backyard BBQs and grazing boxes from Freddy's and our partner kitchens. Order online, then pick up from Buzz Box.
+              Office lunches, home barbecues and share platters from our kitchens. Order ahead, then collect from Buzz Box.
             </p>
             <div>
               <a
                 href="#shop-catering"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/20 cursor-pointer"
               >
-                <span>Shop catering boxes</span>
+                <span>Order a box</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
                 </svg>
@@ -254,7 +254,7 @@ export default function FeatureStories() {
             <div className="rounded-2xl overflow-hidden aspect-[16/10] bg-black/10 shadow-lg">
               <img
                 src="https://www.theorchardpenrith.com.au/_astro/catering-boxes.CS4lYgYy_Z2mHTuo.webp"
-                alt="Catering boxes from above on the lawn"
+                alt="Catering boxes laid out on the lawn"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
