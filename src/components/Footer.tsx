@@ -46,7 +46,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#12201b] text-[#c5d5cb] pt-16 pb-12 border-t border-[#233a30]" id="contact">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 space-y-12" data-reveal>
         {/* Top Footer Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           {/* Brand Info */}
@@ -62,7 +62,9 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="#contact"
+                href="https://www.instagram.com/events_by_buzzbox/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Buzz Box on Instagram"
                 className="w-10 h-10 rounded-full bg-white/5 border border-white/10 hover:border-[#c47335] hover:text-[#c47335] flex items-center justify-center transition-colors"
               >

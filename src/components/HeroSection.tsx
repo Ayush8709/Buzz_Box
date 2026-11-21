@@ -10,9 +10,9 @@ export default function HeroSection() {
         {/* Real Orchard Background Image with Natural Dark Gradient */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://www.theorchardpenrith.com.au/_astro/guests-garden-picnic-table.cgjWlzZa_SJ9bx.png"
-            alt="Friends sharing a long table in the garden at Buzz Box"
-            className="w-full h-full object-cover object-[center_35%]"
+            src="/images/hd/hero-banner.jpg"
+            alt="Elegant dining hall set for a celebration, with tall floral centerpieces and arched windows"
+            className="w-full h-full object-cover object-center"
           />
           {/* Custom Deep Obsidian & Charcoal Gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#0e1915] via-[#12201b]/65 to-transparent"></div>
@@ -20,7 +20,7 @@ export default function HeroSection() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-4xl space-y-6">
+        <div className="relative z-10 max-w-4xl space-y-6" data-reveal>
           {/* Google Reviews Badge */}
           <span className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-xs text-white/90 w-fit">
             <div className="flex text-[#df9557] text-sm tracking-tighter">

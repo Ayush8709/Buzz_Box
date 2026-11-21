@@ -40,7 +40,7 @@ export default function Logo({ className = "h-8 md:h-10 w-auto", variant = 'dark
       {/* Distinct Typography */}
       <div className="flex flex-col">
         <span
-          className="font-['Rufina',serif] font-normal tracking-[0.14em] text-lg sm:text-xl uppercase leading-none transition-colors"
+          className="font-serif font-normal tracking-[-0.01em] text-[1.35rem] sm:text-2xl normal-case leading-none transition-colors"
           style={{ color: textColor }}
         >
           Buzz Box

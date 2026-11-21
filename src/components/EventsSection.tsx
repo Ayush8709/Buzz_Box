@@ -4,21 +4,21 @@ export default function EventsSection() {
       title: "Friday Growers' Stall",
       meta: "EVERY FRIDAY · Front lawn",
       desc: "Growers, bakers and small makers set up stalls on the grass.",
-      image: "https://www.theorchardpenrith.com.au/_astro/ama-markets.BuHkKybZ_21jVaB.webp",
+      image: "/images/hd/r06-05.jpg",
       link: "#market"
     },
     {
       title: "Midweek Supper Gala",
       meta: "THU 3 DEC · Hive Hall",
       desc: "A dressed dinner with a band, candles and one long shared menu.",
-      image: "https://www.theorchardpenrith.com.au/_astro/fbbaa2d6d7f066532eaf0e81326c18af95d74a7f-2400x1200_ZPoQ1d.webp",
+      image: "/images/hd/r07-10.jpg",
       link: "#gala"
     },
     {
       title: "Lights on the Lawn",
       meta: "SAT 5 DEC · Buzz Box",
       desc: "An evening of lights, music and late plates across the grounds.",
-      image: "https://www.theorchardpenrith.com.au/_astro/1b237fbf350db40f332b9e6131cb21b54546c527-1600x1067_Z11q5HG.webp",
+      image: "/images/hd/r01-05.jpg",
       link: "#convoy"
     }
   ]
@@ -26,7 +26,7 @@ export default function EventsSection() {
   return (
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       {/* Section Head */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12" data-reveal>
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
             On the board <em className="italic font-normal">this month</em>
@@ -48,7 +48,7 @@ export default function EventsSection() {
       </div>
 
       {/* Events Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6" data-reveal="stagger">
         {events.map((event) => (
           <a
             key={event.title}

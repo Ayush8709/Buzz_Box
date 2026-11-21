@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: 'Rufina', Georgia, serif;
-  --font-sans: 'Archivo', system-ui, -apple-system, sans-serif;
-  --font-mono: 'DM Mono', monospace;
+  --font-serif: "Rufina", Georgia, "Times New Roman", serif;
+  --font-sans: "Archivo", Arial, Helvetica, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, Menlo, Consolas, monospace;
 
   /* Fresh, Original & Distinct Premium Palette */
   /* Brand Accent: Artisan Terracotta Copper */
@@ -37,6 +37,114 @@
 
 body {
   font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0;
   background-color: #f9f6f0;
   color: #26221d;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-style: normal;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2.75rem, 12vw, 3.25rem);
+  line-height: 0.94;
+  letter-spacing: -0.025em;
+}
+
+@media (min-width: 48rem) {
+  h1 {
+    font-size: clamp(3.25rem, 5.8vw, 6rem);
+  }
+}
+
+h2 {
+  font-size: clamp(1.875rem, 1.625rem + 1.25vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 1.393rem + 0.536vw, 1.875rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+footer h3 {
+  font-size: clamp(1.125rem, 1.07rem + 0.286vw, 1.25rem);
+}
+
+h1 em,
+h2 em,
+h3 em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0;
+}
+
+[class*="DM_Mono"] {
+  font-family: var(--font-mono);
+  letter-spacing: 0.09em;
+  font-weight: 400;
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+[data-reveal="stagger"] {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+[data-reveal="stagger"] > * {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-reveal="stagger"].is-visible > * {
+  opacity: 1;
+  transform: none;
+}
+
+[data-reveal="stagger"].is-visible > *:nth-child(2) { transition-delay: 70ms; }
+[data-reveal="stagger"].is-visible > *:nth-child(3) { transition-delay: 140ms; }
+[data-reveal="stagger"].is-visible > *:nth-child(4) { transition-delay: 210ms; }
+[data-reveal="stagger"].is-visible > *:nth-child(5) { transition-delay: 280ms; }
+[data-reveal="stagger"].is-visible > *:nth-child(6) { transition-delay: 350ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  [data-reveal="stagger"] > * {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

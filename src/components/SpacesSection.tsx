@@ -2,7 +2,7 @@ export default function SpacesSection() {
   return (
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       {/* Section Head */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12" data-reveal>
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
             <em className="italic font-normal">Rooms</em> for any guest list.
@@ -24,13 +24,13 @@ export default function SpacesSection() {
       </div>
 
       {/* Grid of Spaces */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-reveal="stagger">
         {/* 1. The John Farragher Woolshed */}
         <div className="bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow group">
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
-              src="https://www.theorchardpenrith.com.au/_astro/woolshed-exterior.jGfhh8_5_2avO6F.webp"
-              alt="Hive Hall dressed for a seated dinner"
+              src="/images/hd/r07-13.jpg"
+              alt="White arches dressed with flowers and disco balls"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -87,8 +87,8 @@ export default function SpacesSection() {
         <div className="bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow group">
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
-              src="https://www.theorchardpenrith.com.au/_astro/farmhouse-interior.4PfutBNt_1N5IlX.webp"
-              alt="Inside Lantern House, home of The Buzz Tap"
+              src="/images/hd/r07-08.jpg"
+              alt="Woven lanterns beside a floral wall at night"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -137,8 +137,8 @@ export default function SpacesSection() {
         <div className="bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow group">
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
-              src="https://www.theorchardpenrith.com.au/_astro/alfresco-2.D5E9REfR_ZokURC.webp"
-              alt="A long lunch on the Open Deck"
+              src="/images/hd/r01-12.jpg"
+              alt="Flower-lined aisle leading to a mandap by the sea"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -191,8 +191,8 @@ export default function SpacesSection() {
         <div className="bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow group">
           <div className="relative aspect-[4/3] overflow-hidden bg-[#e2d8cb]">
             <img
-              src="https://www.theorchardpenrith.com.au/_astro/pavilion.CHgyaRww_2d8vSb.webp"
-              alt="The Glass Room in daylight"
+              src="/images/hd/r01-11.jpg"
+              alt="White drapes and hanging flowers opening onto a garden"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>

@@ -1,24 +1,24 @@
 export default function MilestonesSection() {
   const photos = [
     {
-      src: "https://www.theorchardpenrith.com.au/_astro/56df36d16f29330cb0ad150c05ca6618a7da8d7e-1200x797_Z1shwiY.webp",
-      alt: "A twenty-first birthday on the dance floor",
-      caption: "A 21st on the dance floor"
+      src: "/images/hd/r01-09.jpg",
+      alt: "White chairs lining a floral aisle on the grass",
+      caption: "Open-air ceremony"
     },
     {
-      src: "https://www.theorchardpenrith.com.au/_astro/ca8cab382d68b7ae1a569f561b3e3dd0a879ea38-1200x801_21dqQn.webp",
-      alt: "Friends laughing together at the bar",
-      caption: "Friends around the bar"
+      src: "/images/hd/r08-14.jpg",
+      alt: "Chandeliers above white chairs facing a gold stage",
+      caption: "Night hall"
     },
     {
-      src: "https://www.theorchardpenrith.com.au/_astro/d0cadece88d1ad933e3c41bf5bbb4777336f3e07-1200x800_27eNgg.webp",
-      alt: "Lanterns lit for a night on the lawn",
-      caption: "Lantern night on the lawn"
+      src: "/images/hd/r07-09.jpg",
+      alt: "A reception welcome board with flowers",
+      caption: "Reception board"
     },
     {
-      src: "https://www.theorchardpenrith.com.au/_astro/7b33420c15d94007f02a4f4ed255b32147c5a6f1-1200x800_1xviUh.webp",
-      alt: "A family gathered around a birthday cake",
-      caption: "Cake at the family table"
+      src: "/images/hd/r06-12.jpg",
+      alt: "Drummers and dancers on a red carpet",
+      caption: "Welcome procession"
     }
   ]
 
@@ -26,7 +26,7 @@ export default function MilestonesSection() {
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       <div className="bg-[#fffefc] rounded-3xl border border-[#e2d8cb] p-8 sm:p-12 lg:p-16 shadow-sm space-y-12">
         {/* Intro */}
-        <div className="max-w-3xl space-y-4">
+        <div className="max-w-3xl space-y-4" data-reveal>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f0e9dd] text-[#6e6357] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
             <span className="w-2 h-2 rounded-full bg-[#c47335]"></span>
             Every kind of night
@@ -42,7 +42,7 @@ export default function MilestonesSection() {
         </div>
 
         {/* 4 Photo Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6" data-reveal="stagger">
           {photos.map((item, idx) => (
             <div
               key={idx}

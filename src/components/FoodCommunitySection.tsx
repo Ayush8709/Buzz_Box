@@ -6,7 +6,7 @@ export default function FoodCommunitySection() {
       cuisine: "Fire, pizza and plates",
       tag: "Open today · late on weekends",
       hours: "Weekdays from 10am · Thu to Sun from 9am",
-      image: "https://www.theorchardpenrith.com.au/_astro/freddys-grill.Di7p99Qp_ZhcDr0.webp",
+      image: "/images/hd/r06-10.jpg",
       link: "#freddys"
     },
     {
@@ -15,7 +15,7 @@ export default function FoodCommunitySection() {
       cuisine: "Taps, music and the game",
       tag: "Wed to Sun · from 11am",
       hours: "House taps, a live set, and the match on the big screen",
-      image: "https://www.theorchardpenrith.com.au/_astro/taproom-interior.DFb_V5Y-_Z1qP63U.webp",
+      image: "/images/hd/r08-02.jpg",
       link: "#taproom"
     },
     {
@@ -24,7 +24,7 @@ export default function FoodCommunitySection() {
       cuisine: "Bread, pies and coffee",
       tag: "Baking until 2pm",
       hours: "Every day from 7am · loaves, pies and a short coffee list",
-      image: "https://www.theorchardpenrith.com.au/_astro/bakery-brothers-hero.Bqt6Cu4v_sgSKu.webp",
+      image: "/images/hd/r03-07.jpg",
       link: "#bakery"
     },
     {
@@ -33,7 +33,7 @@ export default function FoodCommunitySection() {
       cuisine: "Donuts and small sweets",
       tag: "Gluten-free and vegan",
       hours: "Cinnamon dust, chocolate drizzle, and a tray for the table",
-      image: "https://www.theorchardpenrith.com.au/_astro/omg-choc-drizzle.BL5cmrRe_EvuaA.webp",
+      image: "/images/hd/r08-11.jpg",
       link: "#omg"
     }
   ]
@@ -41,7 +41,7 @@ export default function FoodCommunitySection() {
   return (
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       {/* Section Head */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12" data-reveal>
         <div className="space-y-3">
           <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
             Four kitchens, <em className="italic font-normal">one</em> address.
@@ -63,7 +63,7 @@ export default function FoodCommunitySection() {
       </div>
 
       {/* Venues Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-reveal="stagger">
         {venues.map((venue) => (
           <a
             key={venue.name}

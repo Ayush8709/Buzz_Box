@@ -10,7 +10,7 @@ export default function VisitMapSection() {
 
   return (
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
-      <div className="bg-[#f0e9dd] rounded-3xl border border-[#e2d8cb] overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-sm">
+      <div className="bg-[#f0e9dd] rounded-3xl border border-[#e2d8cb] overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-sm" data-reveal>
         {/* Left: Info */}
         <div className="lg:col-span-5 p-8 sm:p-12 lg:p-14 flex flex-col justify-between space-y-8">
           <div className="space-y-6">

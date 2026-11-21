@@ -8,6 +8,7 @@ import EventsSection from './components/EventsSection'
 import VisitMapSection from './components/VisitMapSection'
 import MilestonesSection from './components/MilestonesSection'
 import Footer from './components/Footer'
+import ScrollReveal from './components/ScrollReveal'
 
 export default function App() {
   return (
@@ -44,6 +45,7 @@ export default function App() {
 
       {/* 4. Complete Footer with Directory, Acknowledgement of Country & Legal */}
       <Footer />
+      <ScrollReveal />
     </div>
   )
 }

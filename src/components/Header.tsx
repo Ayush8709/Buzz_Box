@@ -36,7 +36,7 @@ export default function Header() {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 font-['Archivo',sans-serif] text-[15px] font-medium text-[#26221d]">
+        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 font-sans text-base font-medium text-[#26221d]">
           {/* 1. Plan a gathering Dropdown */}
           <div
             className="relative"

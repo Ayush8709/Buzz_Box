@@ -2,7 +2,7 @@ export default function FeatureStories() {
   return (
     <div className="space-y-12 sm:space-y-16 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto pb-16">
       {/* 1. Christmas Parties (Tuscan Terracotta Theme) */}
-      <section className="bg-[#f5e7db] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#c47335]/20 shadow-sm overflow-hidden">
+      <section data-reveal className="bg-[#f5e7db] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#c47335]/20 shadow-sm overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#8b4421] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
@@ -28,36 +28,41 @@ export default function FeatureStories() {
             </div>
           </div>
 
-          <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
+          <div className="lg:col-span-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="col-span-2 sm:col-span-3 rounded-2xl overflow-hidden aspect-[16/10] bg-black/5 shadow-sm">
               <img
-                src="https://www.theorchardpenrith.com.au/_astro/christmas-santa-guests.CFlr1P3f_Z1kOgYb.webp"
-                alt="Guests beside the tree on the Open Deck"
+                src="/images/hd/festive-table.jpg"
+                alt="A long candlelit table set for an end-of-year dinner"
+                className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r01-06.jpg"
+                alt="Pink fireworks over a garden mandap"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="col-span-2 sm:col-span-1 flex flex-col gap-4">
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/christmas-seafood-feast.CxaxBHEp_yYtgS.webp"
-                  alt="A shared seafood spread for a festive lunch"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/christmas-guests-thumbs-up.DALDVg2S_Z23STPD.webp"
-                  alt="Guests at a festive lunch table"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r08-09.jpg"
+                alt="Fairy lights fanned across a night canopy"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r03-03.jpg"
+                alt="Close marigold garlands against a pale wall"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* 2. Corporate Offsites (Deep Botanical Obsidian Theme) */}
-      <section className="bg-[#12201b] text-[#fffefc] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#233a30] shadow-xl overflow-hidden">
+      <section data-reveal className="bg-[#12201b] text-[#fffefc] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#233a30] shadow-xl overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#192b23] text-[#9fb3a7] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
@@ -86,8 +91,8 @@ export default function FeatureStories() {
           <div className="lg:col-span-6">
             <div className="rounded-2xl overflow-hidden aspect-[16/10] bg-black/20 shadow-2xl border border-white/10">
               <img
-                src="https://www.theorchardpenrith.com.au/_astro/corporate-drinks.BU6jAGyo_ZVayNl.webp"
-                alt="A team gathered for a talk in the Glass Room"
+                src="/images/hd/r06-07.jpg"
+                alt="Guests seated in a dark lounge for a launch"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -96,7 +101,7 @@ export default function FeatureStories() {
       </section>
 
       {/* 3. Kids' Parties (Eucalyptus Garden Theme) */}
-      <section className="bg-[#dbe7df] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#224d35]/20 shadow-sm overflow-hidden">
+      <section data-reveal className="bg-[#dbe7df] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#224d35]/20 shadow-sm overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#224d35] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
@@ -131,36 +136,41 @@ export default function FeatureStories() {
             </div>
           </div>
 
-          <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
+          <div className="lg:col-span-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="col-span-2 sm:col-span-3 rounded-2xl overflow-hidden aspect-[16/10] bg-black/5 shadow-sm">
               <img
-                src="https://www.theorchardpenrith.com.au/_astro/kids-balloon-arch.BG5jcvli_Z2n5qQC.webp"
-                alt="A balloon arch set for a first birthday"
+                src="/images/hd/birthday-table.jpg"
+                alt="A kids birthday dessert table with cake, cupcakes and balloons"
+                className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r05-12.jpg"
+                alt="Football balloons hanging under a glass roof"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="col-span-2 sm:col-span-1 flex flex-col gap-4">
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/torc-hero-5.OVrZJUC9_Z1wgGuI.webp"
-                  alt="Families sitting on the lawn at Buzz Box"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/kids-jumping-castle.e6yFpeRH_ZUpFF9.webp"
-                  alt="A jumping castle set up on the grass"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r05-06.jpg"
+                alt="Green and black balloons in a birthday cluster"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r01-08.jpg"
+                alt="A round marigold arch over a yellow ceremony seat"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* 4. Breakfast & Lunch? Sorted. (Warm Alabaster Theme) */}
-      <section className="bg-[#f0e9dd] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#e2d8cb] shadow-sm overflow-hidden">
+      <section data-reveal className="bg-[#f0e9dd] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#e2d8cb] shadow-sm overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#224d35] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
@@ -195,36 +205,41 @@ export default function FeatureStories() {
             </div>
           </div>
 
-          <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-[4/5] bg-black/5 shadow-sm">
+          <div className="lg:col-span-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="col-span-2 sm:col-span-3 rounded-2xl overflow-hidden aspect-[16/10] bg-black/5 shadow-sm">
               <img
-                src="https://www.theorchardpenrith.com.au/_astro/freddys-steak.B8MyK1z3_Z15TBa2.webp"
-                alt="Steak, chips and a glass of red at Ember Kitchen"
+                src="/images/hd/morning-table.jpg"
+                alt="A morning table with coffee, a croissant and eggs"
+                className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r03-02.jpg"
+                alt="Yellow roses and sunflowers in a close arrangement"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <div className="col-span-2 sm:col-span-1 flex flex-col gap-4">
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/freddys-burger-beer.Cn3Xfah5_Z2pCdVz.webp"
-                  alt="A burger and a beer on the Open Deck"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
-                <img
-                  src="https://www.theorchardpenrith.com.au/_astro/freddys-brunch-table.owUNE_6h_20b3qN.webp"
-                  alt="A brunch spread at Ember Kitchen"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+            <div className="rounded-2xl overflow-hidden aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r03-08.jpg"
+                alt="Sunflowers standing under hanging marigolds"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="col-span-2 sm:col-span-1 rounded-2xl overflow-hidden aspect-video sm:aspect-square bg-black/5 shadow-sm">
+              <img
+                src="/images/hd/r08-18.jpg"
+                alt="A buffet table under coloured drapes and a chandelier"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
         </div>
       </section>
 
       {/* 5. Catering Boxes (Artisan Sand Theme) */}
-      <section className="bg-[#ebe4d5] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#e2d8cb] shadow-sm overflow-hidden">
+      <section data-reveal className="bg-[#ebe4d5] text-[#26221d] rounded-3xl p-8 sm:p-12 lg:p-16 border border-[#e2d8cb] shadow-sm overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/70 text-[#6e6357] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
@@ -253,8 +268,8 @@ export default function FeatureStories() {
           <div className="lg:col-span-6">
             <div className="rounded-2xl overflow-hidden aspect-[16/10] bg-black/10 shadow-lg">
               <img
-                src="https://www.theorchardpenrith.com.au/_astro/catering-boxes.CS4lYgYy_Z2mHTuo.webp"
-                alt="Catering boxes laid out on the lawn"
+                src="/images/hd/r03-15.jpg"
+                alt="Sunflowers and a gold vase under a marigold frame"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
