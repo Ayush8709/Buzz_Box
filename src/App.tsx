@@ -11,14 +11,14 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#fbf8f2] text-[#2e2a25] font-['Archivo',sans-serif] selection:bg-[#fa7238] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#f9f6f0] text-[#26221d] font-['Archivo',sans-serif] selection:bg-[#c47335] selection:text-white">
       {/* 1. Top Announcement & Quick Contact Bar */}
       <TopBar />
 
       {/* 2. Main Sticky Header with Dropdowns, Logo & CTA */}
       <Header />
 
-      {/* 3. Main Page Sections in exact order as theorchardpenrith.com.au */}
+      {/* 3. Main Page Sections in exact order with fresh copyright-safe theme */}
       <main className="flex-1">
         {/* Section 0: Hero with Background Image, Search form & 4 Quick Paths */}
         <HeroSection />
@@ -35,7 +35,7 @@ export default function App() {
         {/* Section 8: What's On This Month (Markets, Gala, Convoy) */}
         <EventsSection />
 
-        {/* Section 9: Visit The Orchard & Interactive Precinct Map */}
+        {/* Section 9: Visit Buzz Box & Interactive Precinct Map */}
         <VisitMapSection />
 
         {/* Section 10: Milestones (Your People, Your Culture, Your Party - 4 Photo Collage) */}

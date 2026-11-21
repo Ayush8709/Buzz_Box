@@ -1,7 +1,7 @@
 export default function FoodCommunitySection() {
   const venues = [
     {
-      name: "Freddy's @ The Orchard",
+      name: "Freddy's @ Buzz Box",
       cuisine: "Pizzeria & Restaurant",
       tag: "Open now · until late",
       hours: "Mon to Wed 10am to 2pm · Thu to Sun 9am to late",
@@ -43,17 +43,17 @@ export default function FoodCommunitySection() {
       {/* Section Head */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div className="space-y-3">
-          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#22302b]">
+          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
             Food <em className="italic font-normal">everyone</em> loves.
           </h2>
-          <p className="text-[#6f665a] text-lg max-w-xl font-light">
+          <p className="text-[#6e6357] text-lg max-w-xl font-light">
             Casual café eats, craft beer on tap, wood-fired mains and artisan sweets. All in one spot.
           </p>
         </div>
 
         <a
           href="#food-community"
-          className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#22302b] hover:bg-[#22302b] hover:text-[#fffdf9] text-[#22302b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
+          className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-[#fffefc] text-[#12201b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
         >
           <span>Explore the precinct</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
@@ -68,10 +68,10 @@ export default function FoodCommunitySection() {
           <a
             key={venue.name}
             href={venue.link}
-            className="group bg-[#fffdf9] rounded-2xl border border-[#e9e1d2] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow"
+            className="group bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow"
           >
             {/* Visual Media & Logo Badge */}
-            <div className="relative aspect-[4/3] bg-[#e9e1d2] overflow-hidden">
+            <div className="relative aspect-[4/3] bg-[#e2d8cb] overflow-hidden">
               <img
                 src={venue.image}
                 alt={venue.name}
@@ -89,25 +89,25 @@ export default function FoodCommunitySection() {
             {/* Body */}
             <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
               <div className="space-y-1.5">
-                <span className="inline-block text-[11px] font-['DM_Mono',monospace] uppercase text-[#fa7238] font-semibold tracking-wider">
+                <span className="inline-block text-[11px] font-['DM_Mono',monospace] uppercase text-[#c47335] font-semibold tracking-wider">
                   {venue.cuisine}
                 </span>
-                <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#22302b] group-hover:text-[#fa7238] transition-colors">
+                <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b] group-hover:text-[#c47335] transition-colors">
                   {venue.name}
                 </h3>
-                <p className="text-xs text-[#6f665a] leading-relaxed pt-1">
+                <p className="text-xs text-[#6e6357] leading-relaxed pt-1">
                   {venue.hours}
                 </p>
               </div>
 
               {/* Tag / Status */}
-              <div className="pt-3 border-t border-[#e9e1d2] flex items-center justify-between text-xs">
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#e3eadb] text-[#2f4a2a] font-medium text-[11px]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#3f8f3a]"></span>
+              <div className="pt-3 border-t border-[#e2d8cb] flex items-center justify-between text-xs">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#dbe7df] text-[#224d35] font-medium text-[11px]">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#2ea05f]"></span>
                   {venue.tag}
                 </span>
 
-                <span className="text-[#22302b] group-hover:text-[#fa7238] font-semibold inline-flex items-center gap-1">
+                <span className="text-[#12201b] group-hover:text-[#c47335] font-semibold inline-flex items-center gap-1">
                   View
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform">
                     <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />

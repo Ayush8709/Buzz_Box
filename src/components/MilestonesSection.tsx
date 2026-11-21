@@ -24,19 +24,19 @@ export default function MilestonesSection() {
 
   return (
     <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
-      <div className="bg-[#fffdf9] rounded-3xl border border-[#e9e1d2] p-8 sm:p-12 lg:p-16 shadow-sm space-y-12">
+      <div className="bg-[#fffefc] rounded-3xl border border-[#e2d8cb] p-8 sm:p-12 lg:p-16 shadow-sm space-y-12">
         {/* Intro */}
         <div className="max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f4eee3] text-[#6f665a] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
-            <span className="w-2 h-2 rounded-full bg-[#fa7238]"></span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#f0e9dd] text-[#6e6357] text-xs font-['DM_Mono',monospace] uppercase font-semibold tracking-wider">
+            <span className="w-2 h-2 rounded-full bg-[#c47335]"></span>
             Everyone celebrates here
           </div>
 
-          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#22302b] leading-[1.1]">
+          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b] leading-[1.1]">
             Your people. Your culture. <em className="italic font-normal">Your party.</em>
           </h2>
 
-          <p className="text-base sm:text-lg text-[#6f665a] leading-relaxed font-light">
+          <p className="text-base sm:text-lg text-[#6e6357] leading-relaxed font-light">
             Milestones from every corner of Western Sydney: every culture, every generation, every ability. If it matters to you, it matters to us.
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function MilestonesSection() {
           {photos.map((item, idx) => (
             <div
               key={idx}
-              className="group relative rounded-2xl overflow-hidden aspect-[3/4] bg-[#e9e1d2] shadow-sm"
+              className="group relative rounded-2xl overflow-hidden aspect-[3/4] bg-[#e2d8cb] shadow-sm"
             >
               <img
                 src={item.src}
@@ -67,7 +67,7 @@ export default function MilestonesSection() {
         <div className="flex flex-wrap items-center gap-4 pt-4">
           <a
             href="#plan-an-event"
-            className="group inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#fa7238] hover:bg-[#e05f27] text-white font-semibold text-sm transition-all shadow-md shadow-[#fa7238]/20 cursor-pointer"
+            className="group inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#c47335] hover:bg-[#aa5e27] text-white font-semibold text-sm transition-all shadow-md shadow-[#c47335]/20 cursor-pointer"
           >
             <span>Start planning your celebration</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
@@ -77,7 +77,7 @@ export default function MilestonesSection() {
 
           <a
             href="#all-spaces"
-            className="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#22302b] hover:bg-[#22302b] hover:text-white text-[#22302b] font-semibold text-sm transition-all cursor-pointer"
+            className="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-white text-[#12201b] font-semibold text-sm transition-all cursor-pointer"
           >
             <span>Browse all 12 spaces</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">

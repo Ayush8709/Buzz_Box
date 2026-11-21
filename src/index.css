@@ -5,30 +5,38 @@
   --font-sans: 'Archivo', system-ui, -apple-system, sans-serif;
   --font-mono: 'DM Mono', monospace;
 
-  --color-brand-300: #fa9a6e;
-  --color-brand-500: #fa7238;
-  --color-brand-600: #e05f27;
+  /* Fresh, Original & Distinct Premium Palette */
+  /* Brand Accent: Artisan Terracotta Copper */
+  --color-brand-300: #df9557;
+  --color-brand-500: #c47335;
+  --color-brand-600: #aa5e27;
 
-  --color-dark-700: #35463f;
-  --color-dark-800: #2c3d36;
-  --color-dark-900: #22302b;
+  /* Deep Base: Juniper Obsidian */
+  --color-dark-700: #233a30;
+  --color-dark-800: #192b23;
+  --color-dark-900: #12201b;
 
-  --color-light-100: #fffdf9;
-  --color-light-200: #fbf8f2;
-  --color-light-300: #f4eee3;
+  /* Warm Linen & Alabaster Surfaces */
+  --color-light-100: #fffefc;
+  --color-light-200: #f9f6f0;
+  --color-light-300: #f0e9dd;
 
-  --color-sand-100: #f1ead9;
-  --color-peach-100: #fbe3d4;
-  --color-peach-text: #9a3f17;
-  --color-hairline: #e9e1d2;
+  /* Refined Sand & Borders */
+  --color-sand-100: #ebe4d5;
+  --color-hairline: #e2d8cb;
 
-  --color-sage-100: #e3eadb;
-  --color-sage-text: #2f4a2a;
-  --color-sage-dot: #3f8f3a;
+  /* Fresh Botanical Sage */
+  --color-sage-100: #dbe7df;
+  --color-sage-text: #224d35;
+  --color-sage-dot: #2ea05f;
+
+  /* Warm Tuscan Clay */
+  --color-peach-100: #f5e7db;
+  --color-peach-text: #8b4421;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #fbf8f2;
-  color: #2e2a25;
+  background-color: #f9f6f0;
+  color: #26221d;
 }

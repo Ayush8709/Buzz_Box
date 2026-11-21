@@ -16,8 +16,8 @@ export default function EventsSection() {
     },
     {
       title: "Terry Reilly Convoy Xmas Special",
-      meta: "SAT 5 DEC · The Orchard",
-      desc: "The Terry Reilly Convoy Xmas Special comes to The Orchard on Saturday 5 December.",
+      meta: "SAT 5 DEC · Buzz Box",
+      desc: "The Terry Reilly Convoy Xmas Special comes to Buzz Box on Saturday 5 December.",
       image: "https://www.theorchardpenrith.com.au/_astro/1b237fbf350db40f332b9e6131cb21b54546c527-1600x1067_Z11q5HG.webp",
       link: "#convoy"
     }
@@ -28,17 +28,17 @@ export default function EventsSection() {
       {/* Section Head */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div className="space-y-3">
-          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#22302b]">
+          <h2 className="font-['Rufina',serif] text-4xl sm:text-5xl lg:text-6xl text-[#12201b]">
             What's on <em className="italic font-normal">this month</em>
           </h2>
-          <p className="text-[#6f665a] text-lg max-w-xl font-light">
+          <p className="text-[#6e6357] text-lg max-w-xl font-light">
             Live music, grower markets, seasonal celebrations and community gatherings by the river.
           </p>
         </div>
 
         <a
           href="#whats-on"
-          className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#22302b] hover:bg-[#22302b] hover:text-[#fffdf9] text-[#22302b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
+          className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#12201b] hover:bg-[#12201b] hover:text-[#fffefc] text-[#12201b] font-semibold text-sm transition-all duration-200 w-fit shrink-0 cursor-pointer"
         >
           <span>Full calendar</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
@@ -53,10 +53,10 @@ export default function EventsSection() {
           <a
             key={event.title}
             href={event.link}
-            className="group bg-[#fffdf9] rounded-2xl border border-[#e9e1d2] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow"
+            className="group bg-[#fffefc] rounded-2xl border border-[#e2d8cb] overflow-hidden flex flex-col shadow-sm hover:shadow-md transition-shadow"
           >
             {/* Image */}
-            <div className="relative aspect-[16/10] bg-[#e9e1d2] overflow-hidden">
+            <div className="relative aspect-[16/10] bg-[#e2d8cb] overflow-hidden">
               <img
                 src={event.image}
                 alt={event.title}
@@ -67,7 +67,7 @@ export default function EventsSection() {
             {/* Content */}
             <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-xs font-['DM_Mono',monospace] uppercase text-[#fa7238] font-semibold tracking-wider">
+                <div className="flex items-center gap-2 text-xs font-['DM_Mono',monospace] uppercase text-[#c47335] font-semibold tracking-wider">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                     <line x1="16" y1="2" x2="16" y2="6" />
@@ -77,16 +77,16 @@ export default function EventsSection() {
                   <span>{event.meta}</span>
                 </div>
 
-                <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#22302b] group-hover:text-[#fa7238] transition-colors">
+                <h3 className="font-['Rufina',serif] text-2xl font-normal text-[#12201b] group-hover:text-[#c47335] transition-colors">
                   {event.title}
                 </h3>
 
-                <p className="text-sm text-[#6f665a] leading-relaxed">
+                <p className="text-sm text-[#6e6357] leading-relaxed">
                   {event.desc}
                 </p>
               </div>
 
-              <div className="pt-3 border-t border-[#e9e1d2] flex items-center justify-between text-xs font-semibold text-[#22302b] group-hover:text-[#fa7238]">
+              <div className="pt-3 border-t border-[#e2d8cb] flex items-center justify-between text-xs font-semibold text-[#12201b] group-hover:text-[#c47335]">
                 <span>View event</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
                   <path d="M2 12H21" /><path d="M14 5L21 12L14 19" />
